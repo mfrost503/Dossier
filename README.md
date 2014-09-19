@@ -14,6 +14,8 @@ included in the project. Once composer is installed, you can install all the
 dependencies by using ```composer install``` or ```composer update``` when
 things change.
 
+More information about composer can be found at http://www.composer.org
+
 ### Bower
 
 Bower is used to manage all the front end dependencies and can be installed with
@@ -25,3 +27,5 @@ package that is not in bower.json, run ```bower install <package> --save```. The
 bower.json file, otherwise it will just install the dependency. You can search
 for packages using ```bower search <packagae>``` and that will indicate which
 packages can be installed for the term you searched.
+
+More information about Bower can be found at http://bower.io
