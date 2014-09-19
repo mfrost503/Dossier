@@ -14,7 +14,7 @@ included in the project. Once composer is installed, you can install all the
 dependencies by using ```composer install``` or ```composer update``` when
 things change.
 
-More information about composer can be found at http://www.composer.org
+More information about composer can be found at http://getcomposer.org
 
 ### Bower
 
