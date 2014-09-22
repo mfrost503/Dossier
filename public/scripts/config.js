@@ -2,4 +2,5 @@ dossierApp.config(['$routeProvider', '$locationProvider', '$httpProvider', '$res
 	$locationProvider.html5Mode(true);
 	$routeProvider.when('/', {templateUrl: 'partials/home.html', controller: 'HomeController'});
 	$routeProvider.when('/register', {templateUrl: 'partials/register.html', controller: 'RegistrationController'});
+	$routeProvider.when('/login', {templateUrl: 'partials/login.html', controller: 'LoginController'});
 }]);
