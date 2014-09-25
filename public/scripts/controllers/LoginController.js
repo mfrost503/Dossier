@@ -10,7 +10,7 @@ dossierApp.controller('LoginController', ['$scope', '$rootScope', '$location', '
 		window.location = url;
 	} else {
 		var code = queryString.code;
-		var clientSecret = '29d73b6267e5fb4d85642d8fd1a97f425f19085e';
+		var clientSecret = '';
 		var redirect = 'http://dossier.dev/';
 		$http({
 			method:'POST',
